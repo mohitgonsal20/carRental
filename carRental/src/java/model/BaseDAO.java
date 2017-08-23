@@ -26,7 +26,7 @@ public class BaseDAO {
 		
 	}
         try {
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hr","root", "test123T");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hr","root", "root");
 
 	} catch (SQLException e) {
 		System.out.println("Connection Failed! Check output console");
